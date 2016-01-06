@@ -29,8 +29,9 @@ Invocation  | Output
 `formatClock([2, 3, 4])` | `error message`
 `formatClock(65321)` | `"18:08:41"`
 
-### It doesn't include floating number filtering
+### It doesn't include floating number filtering/formatting
 
 For instance, `formatClock(620.350)` will generate output: `"00:10:20.350000000000023"`
+That's because the **subtraction**.
 
-You can add your own private method to do that particular task if your system needs to capture milliseconds like that.
+You can add **your own method** to do that particular task (formatting) if your system needs to capture milliseconds like that. Like this `formatClock(620.350)` to generate precisely `"00:10:20.350"` output.
