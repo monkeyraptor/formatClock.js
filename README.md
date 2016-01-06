@@ -1,5 +1,5 @@
 # formatClock.js
-JavaScript snippet to convert seconds into hh:mm:ss format
+JavaScript snippet to convert **seconds** into **`hh:mm:ss`** format
 
 ## Syntax (Usage)
 ```
