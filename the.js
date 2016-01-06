@@ -6,6 +6,9 @@ function formatClock(a) {
             return "ERROR: INPUT MUST BE NUMBER (SECOND)";
         }
     }
+    if (a < 0) {
+        return "ERROR: INPUT MUST BE POSITIVE NUMBER";
+    }
     var hour, minute, second;
     hour = Math.floor(a / 3600);
     minute = Math.floor(a / 60) - (hour * 60);
