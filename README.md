@@ -24,8 +24,13 @@ Invocation  | Output
 ------------- | -------------
 `formatClock(59.500)`  | `"00:00:59.500"`
 `formatClock(600)`  | `"00:10:00"`
-`formatClock(620.25)`  | `"00:10:20.25"`
 `formatClock("beer")` | `error message`
 `formatClock(-10)` | `error message`
 `formatClock([2, 3, 4])` | `error message`
 `formatClock(65321)` | `"18:08:41"`
+
+### It doesn't include floating number filtering
+
+For instance, `formatClock(620.350)` will generate output: `"00:10:20.350000000000023"`
+
+You can add your own private method to do that particular task if your system needs to capture milliseconds like that.
