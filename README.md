@@ -22,6 +22,7 @@ var toClockFormat = formatClock(seconds);
 
 Invocation  | Output
 ------------- | -------------
+`formatClock(59.500)`  | `"00:00:59.500"`
 `formatClock(600)`  | `"00:10:00"`
 `formatClock(620.25)`  | `"00:10:20.25"`
 `formatClock("beer")` | `error message`
