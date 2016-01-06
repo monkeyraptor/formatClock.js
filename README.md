@@ -6,7 +6,7 @@ JavaScript snippet to convert seconds into hh:mm:ss format
 formatClock(input)
 ```
 
-`input` argument must be **`Number`** (seconds).
+`input` argument must be **`Number`** (seconds). Preferably positive integer.
 
 The output will be **`String`** type.
 
