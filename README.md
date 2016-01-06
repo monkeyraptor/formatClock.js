@@ -10,12 +10,12 @@ formatClock(input)
 var seconds = 10000;
 var toClockFormat = formatClock(seconds);
 
-// toClockFormat variable consists of "02:46:40" (String)
+// **toClockFormat** variable consists of "02:46:40" (String)
 ```
 
-`input` argument must be **number** (seconds).
+`input` argument must be **`Number`** (seconds).
 
-The output will be `String` type.
+The output will be **`String`** type.
 
 ## Output Examples
 
